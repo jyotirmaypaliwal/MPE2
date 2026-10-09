@@ -9,7 +9,7 @@ on:
         - 'test/**'
         - 'setup.py'
         - 'pyproject.toml'
-        branches: [main]
+        branches: [main, fork-ci-python-311]
     pull_request:
         paths:
         - '.github/workflows/macos-test.yml'
